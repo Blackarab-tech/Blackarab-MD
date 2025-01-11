@@ -8,7 +8,7 @@
 
   <p align="center">
 <a href="https://github.com/Blackarab-tech/Blackarab-MD/new/main">
-    <img src="https://i.ibb.co/ThLhsQq/IMG-20241128-WA0173-1.jpg"  width="700px">
+    <img src="https://i.imgur.com/dHilafW.jpeg"  width="700px">
 </a>
 
 <hr>
