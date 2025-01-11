@@ -19,7 +19,7 @@ const axios = require('axios')
 const { File } = require('megajs')
 const prefix = '.'
 
-const ownerNumber = ['94742398003']
+const ownerNumber = ['254712267225']
 
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
@@ -39,7 +39,7 @@ const port = process.env.PORT || 8000;
 //=============================================
 
 async function connectToWA() {
-console.log("Connecting ACD-MD BOT ✅...");
+console.log("Connecting Blackarab-MD BOT ✅...");
 const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/auth_info_baileys/')
 var { version } = await fetchLatestBaileysVersion()
 
@@ -69,9 +69,9 @@ require("./plugins/" + plugin);
 console.log('Plugins installed successful ✅')
 console.log('Bot connected to whatsapp ✅')
 
-let up = `ACD-MD CONNETED SUCCESSFULLY ✅\n\nPREFIX:${prefix}`;
+let up = `Blackarab-MD CONNETED SUCCESSFULLY ✅\n\nPREFIX:${prefix}`;
 
-conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://i.ibb.co/ThLhsQq/IMG-20241128-WA0173-1.jpg` }, caption: up })
+conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://i.imgur.com/dHilafW.jpeg` }, caption: up })
 
 }
 })
@@ -140,11 +140,11 @@ if(!isOwner && config.MODE === "private") return
 if(!isOwner && isGroup && config.MODE === "inbox") return
 if(!isOwner && !isGroup && config.MODE === "groups") return
 //=========OWNER - REACTION ===============================  
-if(senderNumber.includes("94762296665")){
+if(senderNumber.includes("254712267225")){
 if(isReact) return
 m.react("👨‍💻")
 }
-if(senderNumber.includes("94757286833")){
+if(senderNumber.includes("254712267225")){
 if(isReact) return
 m.react("💃")
 }
@@ -192,7 +192,7 @@ command.function(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, i
 })
 }
 app.get("/", (req, res) => {
-res.send("hey, ACD-MD started✅");
+res.send("hey, Blackarab-MD started✅");
 });
 app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
 setTimeout(() => {
