@@ -50,7 +50,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         // Send the movie information along with the poster image
         await conn.sendMessage(from, {
             image: { url: imageUrl },
-            caption: `${movieInfo}\n> ACD-MD`
+            caption: `${movieInfo}\n> 𝗕𝗟𝗔𝗖𝗞𝗔𝗥𝗔𝗕-𝗠𝗗`
         }, { quoted: mek });
     } catch (e) {
         console.log(e);

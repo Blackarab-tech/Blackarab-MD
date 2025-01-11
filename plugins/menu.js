@@ -12,17 +12,17 @@ async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender
 try{
 let dec = `👋 HEY ${pushname} THIS IS MY MENU 📍
 
-*© OWNERS*  : ᴏʟᴅ ᴋɪɴɢ ᴀꜱʜ
-                      ᴏʟᴅ ᴋɪɴɢ ᴄʀᴀᴢʏ ᴄʜᴜᴛᴛᴀ
-                      ᴏʟᴅ ᴋɪɴɢ ᴄʀᴀᴢʏ ᴅɪɴᴀ
+*© OWNERS*  : Mᴀʟɪʙᴜ Tʜᴇᴇ Gʀᴇᴀᴛ
+                      ᴀʟᴡᴀʏs ᴛʜᴇᴇ ɢʀᴇᴀᴛ
+                      ᴛʜᴇ ᴡᴇᴀᴋ ᴍᴜsᴛ ғᴇᴀʀ
                       
-*© SUPPORTER* : ᴅʀᴋ ᴋɪɴɢ ᴠᴀʟᴀ
+*© SUPPORTER* : ɴᴇʟɴᴀᴛɪᴏɴ
 
-*© NUMBERS* : +94726645160
-                        +94701219309
-                        +94768844616
+*© NUMBERS* : +254712267225
                         
-*© SUPPORTER NUMBER* : +94767737862
+                        ᴛᴇxᴛ ᴡʜᴇɴ ɪɴ ɴᴇᴇᴅ
+                        
+*© SUPPORTER NUMBER* : +254712703241
 
 ╭──────────●●►
 │📌 LIST MENU
@@ -78,11 +78,11 @@ let dec = `👋 HEY ${pushname} THIS IS MY MENU 📍
 ┊ .ai
 ┊ .news
 
-I AM ACD - MD V1 WHATSAPP USER BOT 🇦🇱
+ ʙʟᴀᴄᴋᴀʀᴀʙ-ᴍᴅ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ🇰🇪
 
 
-> POWERED BY THE MAIN CYBER TEAM AND DRAK ARROW 🚩`
-await conn.sendMessage(from,{image:{url: `https://i.ibb.co/Qp22bZ1/IMG-20241129-WA0428.jpg`},caption:dec},{quoted:mek});
+> 𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘 𝐌𝐀𝐋𝐈𝐁𝐔 🚩`
+await conn.sendMessage(from,{image:{url: `https://i.imgur.com/dHilafW.jpeg`},caption:dec},{quoted:mek});
 
 }catch(e){
 console.log(e)
