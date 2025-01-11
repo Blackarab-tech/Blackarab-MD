@@ -10,7 +10,7 @@ cmd({
 },
 async(conn, mek, m,{from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply}) => {
 try{
-let des = `*HEY DEAR* ,${pushname}\n *I Am AlIVE NOW....! 🖐🏻*
+let des = `*𝐇𝐞𝐲 𝐡𝐮𝐦𝐚𝐧* ${pushname}\n *𝐈 𝐚𝐦 𝐛𝐥𝐚𝐜𝐤𝐚𝐫𝐚𝐛-𝐦𝐝 𝐚𝐦 𝐚𝐥𝐢𝐯𝐞 𝐧𝐨𝐰 𝐡𝐨𝐰 𝐜𝐚𝐧 𝐢 𝐡𝐞𝐥𝐩 𝐲𝐨𝐮....! 🖐🏻*
 
 ╭════════════⊷❍ 
 ┊
@@ -18,11 +18,11 @@ let des = `*HEY DEAR* ,${pushname}\n *I Am AlIVE NOW....! 🖐🏻*
 ┊
 ╰════════════⊷❍
 
-*- I AM ACD - MD V1 WHATSAPP USER BOT 🇦🇱*
+*- IA AM BLACKARAB - MD V1 WHATSAPP USER BOT 🇰🇪*
 
 
-> POWERED BY THE MAIN CYBER TEAM 🚩`
-return await conn.sendMessage(from,{image: {url: `https://i.ibb.co/Qp22bZ1/IMG-20241129-WA0428.jpg`},caption: des},{quoted: mek})
+> POWERED BY MALIBU THEE GREAT 🚩`
+return await conn.sendMessage(from,{image: {url: `https://i.imgur.com/dHilafW.jpeg`},caption: des},{quoted: mek})
 }catch(e){
 console.log(e)
 reply(`${e}`)
